@@ -1,3 +1,0 @@
-# Strip notebook output before committing; must have this fine in each notebook directory and first run:
-# git config filter.strip-notebook-output.clean 'jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to=notebook --stdin --stdout --log-level=ERROR'
-*.ipynb filter=strip-notebook-output

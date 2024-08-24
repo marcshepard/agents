@@ -1,4 +1,4 @@
-# Strip notebook output before committing, per https://chatgpt.com/c/44a05508-70f3-4abd-99bf-52de3b1f1ee0
+# Strip notebook output before committing, per https://github.com/kynan/nbstripout
 # Prereqs:
 #   pip install nbstripout
 #   nbstripout --install
